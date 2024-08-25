@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'Ersan.pythonanywhere.com', 
     'localhost',
-    ]
+]
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todo',
 ]
 
 MIDDLEWARE = [
